@@ -139,7 +139,7 @@ const Transactions = ({ transactions, setTransactions }) => {
       return acc;
     }, 0)
 
-    .toLocaleString("en-US", { style: "currency", currency: "USD" });
+    .toLocaleString("en-IN", { style: "currency", currency: "INR" });
 
   const currentWeekSpending = transactionsData
     .reduce((acc, transaction) => {
@@ -152,7 +152,7 @@ const Transactions = ({ transactions, setTransactions }) => {
       return acc;
     }, 0)
 
-    .toLocaleString("en-US", { style: "currency", currency: "USD" });
+    .toLocaleString("en-IN", { style: "currency", currency: "INR" });
 
   const currentMonthSpending = transactionsData
     .reduce((acc, transaction) => {
@@ -163,7 +163,7 @@ const Transactions = ({ transactions, setTransactions }) => {
       return acc;
     }, 0)
 
-    .toLocaleString("en-US", { style: "currency", currency: "USD" });
+    .toLocaleString("en-IN", { style: "currency", currency: "INR" });
 
   // come up with calculations here
 
